@@ -1,0 +1,40 @@
+/*font-family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.navbar{
+  display:
+}
+
+.nav-wrap{
+  text-align: right;
+}
+
+
+.hero-image {
+  bachkground-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images\architect-architecture-build-1109541.jpg");
+  height: 40em;
+  background-color: blue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bgimage {
+  width:100%;
+  height:5000px;
+  background: ;
+  background: url(images\architect-architecture-build-1109541.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  border-color: blue;
+  backg
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
