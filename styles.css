@@ -1,40 +1,232 @@
+
 /*font-family
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-.navbar{
-  display:
-}
-
 .nav-wrap{
   text-align: right;
 }
 
+.container{
 
-.hero-image {
-  bachkground-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images\architect-architecture-build-1109541.jpg");
-  height: 40em;
-  background-color: blue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-.bgimage {
-  width:100%;
-  height:5000px;
-  background: ;
-  background: url(images\architect-architecture-build-1109541.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
-  border-color: blue;
-  backg
+.top-page{
+  background-color: blue
 }
-.bgimage h5 {
-  color:white;
-  text-shadow:2px 2px #333;
+
+
+.intro{
+  height: 40rem;
+  color: white;
+}
+
+.intro-text{
+  padding-top:10%
+}
+
+.btn{
+  margin-top:1em
+}
+
+.orange-color{
+  color:#2ecc71
+}
+
+.orange-color-bg{
+  background-color: #2ecc71;
+  color:#2ecc71
+}
+
+h1{
+  font-size: 5em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+  font-weight: 400;
+font-style: normal;
+font-family: 'Roboto', sans-serif;
+color: #0e0e0e;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0px;
+}
+
+
+h6 {
+  line-height: 1.7;
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-weight: 600;
+font-style: normal;
+font-family: 'Montserrat', sans-serif;
+color: #0e0e0e;
+font-size: 58px;
+line-height: 1.2;
+letter-spacing: -2px;
+text-transform: capitalize;
+
+}
+
+/*title-page*/
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+
+
+/* typewriter animation*/
+.typewriter  {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #2ecc71; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing:; /* Adjust as needed */
+  animation:
+    typing 5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2ecc71 }
+}
+
+
+.typewriter  {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #2ecc71; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing:; /* Adjust as needed */
+  animation:
+    typing 5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.typewriter2 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #2ecc71; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing:; /* Adjust as needed */
+  animation:
+    typing 5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/*contact button*/
+.btn-1{
+  color:white
+}
+
+/*container2*/
+#container2{
+
+  padding-top:125px;
+  padding-bottom:125px
+
+}
+
+.about{
+  padding-top:2em
+
+}
+
+
+.bold{
+  font-style: bold
+}
+
+
+#about-bold-text h3{
+  font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #0e0e0e;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+
+}
+
+#about-light-text{
+  font-weight: 400;
+font-style: normal;
+font-family: 'Roboto', sans-serif;
+color: #a09d9d;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0px;
+}
+
+
+/*progress bar*/
+
+.prog-bar{
+  padding:1em
+}
+
+.progress-bar{
+  height:100px;
+  margin:
+}
+
+.about-text{
+  padding:1em
+}
+
+
+
+
+
+/*container3*/
+#container3{
+  padding-top: 125px;
+  padding-bottom: 125px;
+
+}
+
+
+
+.consultation{
+  
+  color:white
+}
+
+.no-bg{
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.contact-button{
+  color:
+}
+
+.hello{
+  height:300px;
+  background-color: red
 }
