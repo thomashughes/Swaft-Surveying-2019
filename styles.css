@@ -4,30 +4,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-.nav-wrap{
-  text-align: right;
-}
 
-.container{
-
-}
-
-.top-page{
-  background-color: blue
-}
-
-
-.intro{
-  height: 40rem;
-  color: white;
-}
-
-.intro-text{
-  padding-top:10%
-}
-
-.btn{
-  margin-top:1em
+/*global*/
+.container-pad{
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 .orange-color{
@@ -36,7 +17,6 @@ font-family: 'Roboto', sans-serif;
 
 .orange-color-bg{
   background-color: #2ecc71;
-  color:#2ecc71
 }
 
 h1{
@@ -75,7 +55,39 @@ text-transform: capitalize;
 
 }
 
-/*title-page*/
+.bold{
+  font-style: bold
+}
+
+
+/*buttons*/
+.btn{
+  margin-top:1em
+}
+
+/*contact button*/
+.btn-1 {
+  color:white;
+  border-color:#2ecc71
+}
+
+
+/*nav*/
+.nav-wrap{
+  text-align: right;
+}
+
+
+/*first container*/
+.intro{
+  height: 40rem;
+  color: white;
+}
+
+.intro-text{
+  padding-top:10%
+}
+
 
 .rgba-gradient {
   background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
@@ -85,19 +97,31 @@ text-transform: capitalize;
   background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
-
 /* typewriter animation*/
 .typewriter  {
   color: #fff;
-  font-family: monospace;
+  font-size: 1.3em;
+  font-family:'Roboto', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #2ecc71; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing:; /* Adjust as needed */
-  animation:
-    typing 5s steps(30, end),
-    blink-caret .5s step-end infinite;
+
+
+}
+
+
+.typewriter2 {
+  color: #fff;
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #2ecc71; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing:; /* Adjust as needed */
+
 }
 
 /* The typing effect */
@@ -113,37 +137,6 @@ text-transform: capitalize;
 }
 
 
-.typewriter  {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #2ecc71; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing:; /* Adjust as needed */
-  animation:
-    typing 5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-.typewriter2 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #2ecc71; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing:; /* Adjust as needed */
-  animation:
-    typing 5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/*contact button*/
-.btn-1{
-  color:white
-}
-
 /*container2*/
 #container2{
 
@@ -155,11 +148,6 @@ text-transform: capitalize;
 .about{
   padding-top:2em
 
-}
-
-
-.bold{
-  font-style: bold
 }
 
 
@@ -193,7 +181,7 @@ letter-spacing: 0px;
 
 .progress-bar{
   height:100px;
-  margin:
+  background-color: #2ecc71
 }
 
 .about-text{
@@ -206,27 +194,51 @@ letter-spacing: 0px;
 
 /*container3*/
 #container3{
-  padding-top: 125px;
-  padding-bottom: 125px;
-
+  padding-top:5em;
+  padding-bottom: 5em;
+  color:white;
 }
 
 
 
-.consultation{
-  
+.consultation h2{
   color:white
+}
+
+.heavier-text{
+  font-weight: 700;
 }
 
 .no-bg{
   background-color: rgba(0, 0, 0, 0)
 }
 
-.contact-button{
-  color:
+
+/*container-4*/
+#container-4 h2{
+  text-align: center;
+  padding-bottom: 1em
 }
 
-.hello{
-  height:300px;
-  background-color: red
+.services{
+  height:50px;
+  padding-left: 30px;
+padding-right: 30px;
+border-style: solid;
+border-color: #e5e5e5;
+border-left-width: 3px;
+border-right-width: 3px;
+border-top-width: 3px;
+border-bottom-width: 3px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+transition-duration: 0.4s;
+transition-property: border-color;
+margin:
+}
+
+.services:hover{
+  border-color: #2ecc71
 }

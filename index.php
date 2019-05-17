@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Swaft surveying</title>
   <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
+   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -12,8 +13,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 
 
 </head>
@@ -64,24 +66,25 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label for="form_name">Firstname *</label>
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <label for="form_name">First Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name *" required="required" data-error="Firstname is required.">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label for="form_lastname">Lastname *</label>
-                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <label for="form_lastname">Last Name *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last Name *" required="required" data-error="Lastname is required.">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                   </div>
+
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="form_email">Email *</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please Enter Your Email *" required="required" data-error="Valid email is required.">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -103,7 +106,7 @@
                     <div class="col-md-12">
                       <div class="form-group">
                         <label for="form_message">Message *</label>
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -141,18 +144,19 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-6 intro-text">
-              <h1 class="h1-responsive font-weight-bold mt-sm-5">Swaft <span style="color:#2ecc71; font-weight:800;">Surveying</span> </h1>
+            <h1  class="animated  lightSpeedIn delay-1s">Swaft </span><span style="color:#2ecc71; font-weight:800;">Surveying</span> </h1>
               <hr class="hr-light">
               <h6 class="typewriter">Final Account Reconciliation</h6>
               <h6 class="typewriter2">Takeoffs & Tenders</h6>
-              <button type="button" class="btn btn-primary btn-1 orange-color-bg">Find Out More</button>
+
+              <button type="button" class="btn btn-primary btn-1 orange-color-bg" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
             </div> <!--intro-text-->
           </div><!--row-->
         </div><!--container-fluid-->
       </div><!--mask/rgba-garadient-->
     </div><!--view-->
 
-    <div class="container" id="container2">
+    <div class="container container-pad" id="container2">
       <h2>About Us</h2>
       <div class="row">
         <div class="about container about-text col-md-6">
@@ -167,21 +171,21 @@
         <div class="col-md-6 prog-bar container about">
           <h3>Happy Customers</h3>
           <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width:100%">
               big things
             </div>
           </div>
           <br>
           <h3>Average Amount Saved</h3>
           <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-              <  Over 1000 people!<span class="align-right">hello</span>
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width:93%">
+              <span>Over 1000 people!<span class="align-right">hello</span>
             </div>
           </div>
           <br>
           <h3>Years Industry Experience</h3>
           <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
               <span> Over 10060 people!</span>
             </div>
           </div>
@@ -193,22 +197,41 @@
 
 
 
-    <div class="view" id="container3" style="background-image: url('http://localhost/EdsWebsite/images/antique-architecture-backdrop-168442.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" >
+    <div class="view container-pad" id="container3" style="background-image: url('http://localhost/EdsWebsite/images/antique-architecture-backdrop-168442.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" >
         <div class="col-md-12 jumbotron no-bg" style="background-color:rgba(0, 0, 0, 0)" >
           <div class="consultation text-center">
             <h2>Every 1st consultation <br>
-              <span style="font-weight: 800">with us is free</span></h2>
-              <button type="button" class="btn btn-primary contact-button">Get In Touch</button>
+              <span class="heavier-text">with us is <span class="orange-color">FREE</span></span></h2>
+              <button type="button" class="btn btn-primary btn-1 orange-color-bg" data-toggle="modal" data-target="#exampleModalCenter">Get In Touch</button>
           </div>
 
         </div><!--col-md-12-->
 
     </div><!--container/container-3-->
 
-    <div class="container hello">
-      <div class="row">
-        <div class="col-md-12">
 
+
+
+    <div class="container container-pad" id="container-4">
+      <h2>Services</h2>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="services">
+            <h6>ed</h6>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="services">
+            <h6>is</h6>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="services">
+            <h6>str8</h6>
+          </div>
         </div>
 
       </div>
