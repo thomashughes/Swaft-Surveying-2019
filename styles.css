@@ -6,6 +6,9 @@ font-family: 'Roboto', sans-serif;
 
 
 /*global*/
+html{
+  scroll-behavior: smooth
+}
 .container-pad{
   padding-top: 125px;
   padding-bottom: 125px;
@@ -221,9 +224,11 @@ letter-spacing: 0px;
 }
 
 .services{
-  height:50px;
+
   padding-left: 30px;
 padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
 border-style: solid;
 border-color: #e5e5e5;
 border-left-width: 3px;
@@ -236,9 +241,84 @@ border-bottom-left-radius: 30px;
 border-bottom-right-radius: 30px;
 transition-duration: 0.4s;
 transition-property: border-color;
-margin:
+align-items: center;
+text-align: center;
+height:auto;
 }
 
+.services h3{
+  font-size: 2em;
+  margin:0.5em;
+}
 .services:hover{
   border-color: #2ecc71
+}
+
+.services p{
+  font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #a09d9d;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    margin-bottom: 0.5em
+}
+
+
+.services-img{
+  height: 75px;
+  width: 75px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+   margin:15px 0px;
+}
+
+footer{
+	background-color:#222222;
+	padding: 60px 0px;
+}
+
+footer .menu li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:none;
+}
+
+footer .menu li a:hover{
+	color:#7dabdb;
+}
+
+.fa.fa-facebook ,
+.fa.fa-dropbox,
+.fa.fa-flickr ,
+.fa.fa-github ,
+.fa.fa-linkedin ,
+.fa,fa-tumblr ,
+.fa.fa-google-plus ,
+.fa.fa-tumblr {
+	color:#b1aca1;
+	font-size:20px;
+	padding:10px;
+}
+
+.fa.fa-facebook:hover,
+.fa.fa-dropbox:hover,
+.fa.fa-flickr:hover,
+.fa.fa-github:hover,
+.fa.fa-linkedin:hover,
+.fa,fa-tumblr:hover,
+.fa.fa-google-plus:hover,
+.fa.fa-tumblr:hover {
+	color:#6794c2;
 }

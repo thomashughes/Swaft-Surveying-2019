@@ -27,24 +27,22 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav nav  justify-content-end">
+      <ul class="navbar-nav nav smooth-scroll list-unstyled justify-content-end">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#container2">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#container-4">
             Services
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
@@ -218,23 +216,111 @@
 
         <div class="col-md-4">
           <div class="services">
-            <h6>ed</h6>
+            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon2.png" class="services-img img-fluid" alt="clipboard">
+            <h3>Accounts</h3>
+            <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="services">
-            <h6>is</h6>
+            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon1.png" class="services-img img-fluid" alt="clipboard">
+            <h3>Accounts</h3>
+            <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
+
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="services">
-            <h6>str8</h6>
+            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon3.png" class="services-img img-fluid" alt="clipboard">
+            <h3>Accounts</h3>
+            <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
           </div>
         </div>
 
       </div>
 
     </div>
+
+
+    <footer>
+ <div class="container">
+   <div class="row text-center">
+
+             <div class="col-md-6">
+              <ul class="">
+
+                           <li>
+                                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-dropbox fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-flickr fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-github fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-tumblr fa-2x"></i></a>
+                           </li>
+
+                           <li>
+                                <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                          </li>
+
+                 </ul>
+               </div>
+
+             <div class="col-md-6 col-sm-6 col-xs-12">
+              <ul class="menu list-inline">
+
+                     <li>
+                        <a href="#">Home</a>
+                      </li>
+
+                      <li>
+                         <a href="#">About</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+
+                      <li>
+                         <a href="#">Gallery </a>
+                      </li>
+
+                      <li>
+                        <a href="#">Contact</a>
+                     </li>
+
+             </ul>
+           </div>
+
+
+       </div>
+    </div>
+</footer>
+
+<div class="copyright">
+ <div class="container">
+
+     <div class="row text-center">
+     	<p>Copyright © 2017 All rights reserved</p>
+     </div>
+
+    </div>
+</div>
+<!-- End -->
   </body>
