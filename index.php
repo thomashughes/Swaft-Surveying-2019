@@ -216,7 +216,7 @@
 
         <div class="col-md-4">
           <div class="services">
-            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon2.png" class="services-img img-fluid" alt="clipboard">
+            <img src="images\mt-1509-home-icon3.png" class="services-img img-fluid" alt="clipboard">
             <h3>Accounts</h3>
             <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
           </div>
@@ -224,7 +224,7 @@
 
         <div class="col-md-4">
           <div class="services">
-            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon1.png" class="services-img img-fluid" alt="clipboard">
+            <img src="images\mt-1509-home-icon1.png" class="services-img img-fluid" alt="clipboard">
             <h3>Accounts</h3>
             <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
 
@@ -233,11 +233,36 @@
 
         <div class="col-md-4">
           <div class="services">
-            <img src="http://localhost/EdsWebsite/images/mt-1509-home-icon3.png" class="services-img img-fluid" alt="clipboard">
+            <img src="images\mt-1509-home-icon2.png" class="services-img img-fluid" alt="clipboard">
             <h3>Accounts</h3>
             <p>If you need your business flourish despite all circumstances, then it is a perfect strategic planning you need to do.</p>
           </div>
         </div>
+
+      </div>
+
+    </div>
+    <div class=" socialbar">
+
+      <div class=" row social-container">
+        <h2>Follow Us!</h2>
+        <div class="col-md-12">
+          <div class="social-icons">
+              <!-- Facebook -->
+              <a href="#" class="fa fa-facebook" id="fb"></a>
+              <!-- Twitter -->
+              <a href="#"class="fa fa-twitter" id="tw"></a>
+              <!--linkedin-->
+              <a href="#" class="fa fa-linkedin" id="lin"></a>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+
+    <div class="container contact">
+      <div class="row contact-container">
 
       </div>
 
@@ -249,33 +274,33 @@
    <div class="row text-center">
 
              <div class="col-md-6">
-              <ul class="">
+              <ul class="list-inline">
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-dropbox fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-flickr fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-github fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-tumblr fa-2x"></i></a>
                            </li>
 
-                           <li>
+                           <li class="menusocail">
                                 <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
                           </li>
 
@@ -285,23 +310,23 @@
              <div class="col-md-6 col-sm-6 col-xs-12">
               <ul class="menu list-inline">
 
-                     <li>
+                     <li class="menusocail">
                         <a href="#">Home</a>
                       </li>
 
-                      <li>
+                      <li class="menusocail">
                          <a href="#">About</a>
                       </li>
 
-                      <li>
+                      <li class="menusocail">
                         <a href="#">Blog</a>
                       </li>
 
-                      <li>
+                      <li class="menusocail">
                          <a href="#">Gallery </a>
                       </li>
 
-                      <li>
+                      <li class="menusocail">
                         <a href="#">Contact</a>
                      </li>
 
@@ -317,7 +342,7 @@
  <div class="container">
 
      <div class="row text-center">
-     	<p>Copyright © 2017 All rights reserved</p>
+     	<p>Copyright Thomas Hughes</p>
      </div>
 
     </div>

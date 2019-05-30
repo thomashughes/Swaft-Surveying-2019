@@ -7,8 +7,16 @@ font-family: 'Roboto', sans-serif;
 
 /*global*/
 html{
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
+
 }
+
+.container{
+  z-index: -100;
+  background-color:
+}
+
+
 .container-pad{
   padding-top: 125px;
   padding-bottom: 125px;
@@ -276,8 +284,88 @@ height:auto;
 
 
 
+/*social container*/
+.social-container {
+text-align: center;
+padding: auto;
+
+}
+
+.socialbar{
+  background-color: pink;
+  text-align: center;
+  padding:2em;
+  width:100%;
+  margin:auto;
+
+
+}
+.social-icons  a{
+  background-color: red;
+  color:white;
+  font-size: 5em;
+  padding:1em;
+  z-index: -1;
+  margin:0.2em
+}
+
+.social-container{
+  height:auto;
+  text-align: center;
+  padding-top:2.5em;
+
+}
+
+.social-container h2{
+  text-align: center;
+}
+
+#fb{
+
+}
+
+#tw{
+
+}
+
+#lin{
+
+}
+
+
+
+
+.footer-icons a{
+  font-size: 3em;
+  color:white;
+  padding: 1em;
+  margin:auto;
+}
+
+
+
+
+/*contact-contaienr*/
+
+.contact{
+  height: 400px;
+  background-color: white
+}
+
+/*footer*/
+
+
+
+
 .copyright{
     background-color:#f0f0f0;
+}
+
+.list-inline{
+  text-align: center
+}
+.menusocail{
+  display: inline-block;
 }
 
 .copyright p{
@@ -298,7 +386,7 @@ footer .menu li a{
 footer .menu li a:hover{
 	color:#7dabdb;
 }
-
+/*
 .fa.fa-facebook ,
 .fa.fa-dropbox,
 .fa.fa-flickr ,
